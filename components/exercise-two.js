@@ -58,7 +58,7 @@ se llaman una por una con this */
 
   render() {
     return html`
-      <h3>Segundo componente. Ejemplos de propiedades en consola</h3>
+      <h3>Second component. Ejemplos de propiedades en consola y renderizados en pantalla</h3>
       <!-- Bindear datos (vincular propiedades a los elem de la plantilla) 
     para que los muestre en el render-->
     <p>${this.property1}</p>

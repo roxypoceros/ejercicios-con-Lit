@@ -1,5 +1,7 @@
 import { LitElement, html, css } from 'lit';
-import "./exercise-two"
+import "./exercise-two";
+import "./exercise-three"
+
 
 
 export class MainComponent extends LitElement {
@@ -18,6 +20,7 @@ export class MainComponent extends LitElement {
     
     <h2>Estamos en mi primer componente</h2>
     <exercise-two></exercise-two>
+    <exercise-three></exercise-three>
 
     
     `;
