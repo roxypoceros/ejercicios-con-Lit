@@ -2,6 +2,7 @@ import { LitElement, html, css } from 'lit';
 import "./exercise-two";
 import "./exercise-three";
 import "./exercise-four";
+import "./exercise-five";
 
 
 
@@ -31,6 +32,9 @@ export class MainComponent extends LitElement {
       <span slot="age">36</span>
       <p slot="job">Developer</p>
     </exercise-four>
+
+    <exercise-five></exercise-five>
+
 
 
 
