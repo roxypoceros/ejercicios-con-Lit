@@ -3,9 +3,7 @@ import "./exercise-two";
 import "./exercise-three";
 import "./exercise-four";
 import "./exercise-five";
-
-
-
+import "./exercise-six";
 
 export class MainComponent extends LitElement {
 
@@ -34,6 +32,9 @@ export class MainComponent extends LitElement {
     </exercise-four>
 
     <exercise-five></exercise-five>
+
+    <exercise-six></exercise-six>
+
 
 
 
