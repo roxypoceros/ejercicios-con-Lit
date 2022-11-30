@@ -19,7 +19,7 @@ se llaman una por una con this */
     this.property1 = "Hello World!, es un string";
     this.property2 = 1958;
     this.property3 = false;
-    this.property4 = ["Apple", "Orange", "Lemon", "Watermelon"];
+    this.property4 = ["Apple", "Orange", "Lemon", "Watermelon", "Strawberry"];
     this.property5 = [
       {
         name: "Gustavo",
@@ -71,8 +71,23 @@ ${this.property3?
   `<p>Mi propiedad 3 es false y renderiza esto.</p>`
 }  
 <!-- Loop con método .map() 
-que crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.--> 
+que crea un nuevo array con los resultados de la llamada a la función 
+indicada aplicados a cada uno de sus elementos.
+Se llama un a variable, llamamos al html, ponemos etiqueta, imprimimos variable e <li>--> 
+    <ul>
+    ${this.property4.map(e => html `<li>${e}</li>`)}
+    </ul>
+
+
+    ${this.property5.map(e => 
+      html `<li>
+      ${e.name}
+      ${e.lastName}
+      ${e.age}
+      ${e.pet}
     
+    </li>`)}
+
     
     `;
   }
