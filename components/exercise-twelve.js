@@ -17,6 +17,7 @@ export class ExerciseTwelve extends LitElement {
     css`
       :host {
         display: block;
+        
       }
     `
   ];
