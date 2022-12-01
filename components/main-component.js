@@ -6,6 +6,8 @@ import "./exercise-five";
 import "./exercise-six";
 import "./exercise-ten";
 import "./exercise-eleven";
+import "./exercise-twelve";
+
 
 
 
@@ -43,6 +45,7 @@ export class MainComponent extends LitElement {
 
     <exercise-eleven></exercise-eleven>
 
+    <exercise-twelve></exercise-twelve>
 
 
 
