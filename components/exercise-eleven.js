@@ -22,6 +22,20 @@ export class ExerciseEleven extends LitElement {
       <br />
       <br />
 
+      <h4> @input reacciona al ingresar la info. 
+        Si la longitud del input es o no es 4, lo vemos en consola.
+      </h4>
+      <input
+        type="text"
+        placeholder="Input four"
+        id="inputFour"
+        @input="${this.inputEvent}"
+      />
+
+      <br />
+      <br />
+
+
       <h4>Si la longitud del input es  4 , el input two se habilitará.
         Está desabilitado por default.
       </h4>
@@ -66,5 +80,17 @@ export class ExerciseEleven extends LitElement {
     }
     console.log(e.target.value.length);
   }
+
+/* Event @input funciona con  */
+
+inputEvent(e){
+if(e.target.value.length === 4){
+  console.log("Es igual a 4 :D", e.target.value.length);
+}else{
+  console.log("No es igual a 4 :(", e.target.value.length);
+}
+}
+
+
 }
 customElements.define("exercise-eleven", ExerciseEleven);
