@@ -10,6 +10,7 @@ import "./exercise-twelve";
 import "./exercise-counter";
 import "./exercise-operadorternario";
 import "./exercise-usodeevento"
+import "./course-component"
 
 
 export class MainComponent extends LitElement {
@@ -50,6 +51,14 @@ export class MainComponent extends LitElement {
     <exercise-counter></exercise-counter>
     <exercise-operadorternario></exercise-operadorternario>
     <exercise-usodeevento></exercise-usodeevento>
+
+    <course-component person="Rox"></course-component>
+    <course-component person="Dulce"></course-component>
+    <!-- En consola se selecciona el elem. y con :
+  $0.person= "amiga"
+  se puede cambiar el nombre
+  -->
+
     
 
  

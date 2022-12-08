@@ -23,6 +23,7 @@ export class ExerciseThree extends LitElement {
     css`
       :host {
         display: block;
+        background-color: #fffad6
       }
     `,
   ];
