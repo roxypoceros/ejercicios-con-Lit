@@ -11,6 +11,7 @@ import "./exercise-counter";
 import "./exercise-operadorternario";
 import "./exercise-usodeevento"
 import "./course-component"
+import "./course-counter"
 
 
 export class MainComponent extends LitElement {
@@ -58,6 +59,7 @@ export class MainComponent extends LitElement {
   $0.person= "amiga"
   se puede cambiar el nombre
   -->
+  <course-counter></course-counter>
 
     
 
