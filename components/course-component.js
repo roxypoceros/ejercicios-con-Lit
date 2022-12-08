@@ -1,18 +1,17 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from "lit";
 
 export class CourseComponent extends LitElement {
-
   /* Propiedades son importantes por que definen que datos va
   a manejar este componente y generalmente se van a renderizar
   
   */
-static get properties() {
-  return {
-    person: { type: String },
-  };
-}
+  static get properties() {
+    return {
+      person: { type: String },
+    };
+  }
 
-/*   static styles = [
+  /*   static styles = [
     css`
       :host {
         display: block;
@@ -27,16 +26,14 @@ static get properties() {
     strings en los cuales agrego el contenido de variables
     */
     return html`
-    <!-- se usa this. por que es una propiedad del componente.
-   A quién quiero saludar, lo defino en main-component -->
-    <h1>¡¡Hola, hola ${this.person} !!</h1>
-    
+      <!-- se usa this. por que es una propiedad del componente.
+      A quién quiero saludar, lo defino en main-component -->
+      <h1>¡¡Hola, hola ${this.person} !!</h1>
     `;
   }
 }
 
 /* estándar de web components que sirve para definir un nuevo 
 componente (nombre con guión) que se implementa con la clase que
-definimos */ 
-customElements.define('course-component', CourseComponent);
-
+definimos */
+customElements.define("course-component", CourseComponent);
